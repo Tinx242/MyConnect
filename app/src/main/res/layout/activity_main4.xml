@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="24dp"
+    tools:context=".MainActivity4">
+
+    <Spinner
+        android:id="@+id/genreSpinner"
+        android:layout_width="217dp"
+        android:layout_height="52dp"
+        android:background="@drawable/rounded_edittext"
+        app:layout_constraintBottom_toTopOf="@+id/date_de_naissance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/date_de_naissance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="date"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/date_de_naissance"
+        android:inputType="date"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/deconnexion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/genreSpinner"
+        app:layout_constraintVertical_bias="0.5" />
+
+
+    <Button
+        android:id="@+id/deconnexion"
+        android:layout_width="153dp"
+        android:layout_height="61dp"
+        android:backgroundTint="@color/pink"
+        android:text="@string/deconnexion"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_de_naissance"
+        app:layout_constraintVertical_bias="0.5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

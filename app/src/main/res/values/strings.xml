@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyConnect</string>
+    <string name="my_connect">My Connect</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="inscription">INSCRIPTION</string>
+    <string name="email">Email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="coeur">TODO</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="prenom">Prenom</string>
+    <string name="nom">Nom</string>
+    <string name="deconnexion">Déconnexion</string>
+    <string name="bienvenue">Bienvenue !</string>
+    <string name="description">Si les connexions et les rencontres vous font de l\'effet My Connect est fait pour vous</string>
+    <string name="txt_inscription">Vous n\'êtes pas de la region</string>
+    <string name="suivant">SUIVANT</string>
+    <string name="date_de_naissance">Date de naissance</string>
+    <string name="genre">Genre</string>
+    <string name="comfirmer_mots_de_passe">Comfirmer mots de passe</string>
+    <string name="mode_sombre">Mode sombre</string>
+
+</resources>
